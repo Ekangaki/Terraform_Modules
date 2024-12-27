@@ -15,7 +15,7 @@ resource "aws_instance" "private-servers" {
   	#!/bin/bash
         sudo apt install nginx -y
         sudo apt install git -y
-        sudo git clone https://github.com/saikiranpi/Website_testing.git
+        sudo git clone https://github.com/Ekangaki/Website_testing.git
         sudo rm -rf /var/www/html/index.nginx-debian.html
         sudo cp Website_testing/index.html /var/www/html/index.nginx-debian.html
         sudo cp Website_testing/css/style.css /var/www/html/style.css
