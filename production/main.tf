@@ -11,7 +11,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "sreeterraformbucket"
+    bucket = "afroit-terraformbucket"
     key    = "production-modules.tfstate"
     region = "us-east-1"
   }
